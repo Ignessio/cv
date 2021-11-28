@@ -182,8 +182,12 @@ sub {
  */
 
 img {
+  margin: 1rem;
+  max-width: 90%;
+  border-radius: 20%;
+  box-shadow: 2px 2px 5px;
   border: 0;
-  width: 200px;
+  /* width: 200px; */
 }
 
 /**
