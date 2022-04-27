@@ -1,101 +1,258 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8">
     <title>Valentin Zaborov</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="icon" type="image/png" href="images/favicon.ico">
   </head>
   <body>
-    <div class="container">
+    <section class="container mt-2">
       <div class="row">
-        <h1>Valentin Zaborov</h1>
-      </div>
-
-      <div class="row">
-        <div class="four columns center">
-          <img src="images/vvz.jpg" alt="Engineer photo">
-          <h4>Ruby / Ruby on Rails</h4>
-          <p>Software engineer</p>
-          <h4>Contacts</h4>
-          <p>Phone: +7 (968) 577-78-47</p>
-          <p>Email: <a target="_blank" href="mailto:xerrox@yandex.ru">xerrox@yandex.ru</a></p>
-          <p>City: <a target="_blank" href="https://goo.gl/maps/1HSrFyVegh4c5mz79">Zhukovskiy</a></p>
-          <p>Github: <a target="_blank" href="https://github.com/Ignessio">Ignessio</a></p>
-          <h4>Skils</h4>
-          <ul>
-            <li>Ruby</li>
-            <li>Ruby on Rails</li>
-            <li>Rspec</li>
-            <li>SQL, PostgreSQL</li>
-            <li>CSS</li>
-            <li>HTML</li>
-            <li>XML, JSON</li>
-            <li>Devise</li>
-            <li>Git, Github</li>
-            <li>Linux, Ubuntu</li>
-            <li>Nginx</li>
-            <li>JavaScript</li>
-            <li>VPS</li>
-            <li>Capistrano</li>
-            <li>Heroku</li>
-            <li>QoS</li>
-            <li>GSM, 3G, LTE</li>
-            <li>TDM, ATM, IP</li>
-            <li>MS Office tools</li>
-          </ul>
-          <h4>Languages</h4>
-          <p>Russian: native</p>
-          <p>Elglish: intermediate</p>
+        <div class="eight columns">
+          <h1 class="mb-0">Valentin Zaborov</h1>
+          <h5 class="mt-0">Ruby on Rails Software engineer</h5>
         </div>
-
-        <div class="eight columns center">
-          <p>Professional telecommunication engineer with more than 20 years of
+        <div class="four columns"  id="contacts">
+          <p></p><strong>Phone:</strong> <a href="tel:+79685777847">+7 (968) 577-78-47</a></a></p>
+          <a href="mailto:xerrox@yandex.ru" target="_blank"><img src="images/email.png" class="icon"></a>
+          <a href="https://github.com/Ignessio" target="_blank"><img src="images/github.png" class="icon"></a>
+          <a href="https://www.linkedin.com/in/valentin-z-559a89110/" target="_blank"><img src="images/linkedin.png" class="icon"></a>
+          <a href="https://t.me/Ignessio" target="_blank"><img src="images/telegram.png" class="icon"></a>
+        </div>
+      </div>
+    </section>
+    <section class="container mt-2" id="about">
+      <div class="row v-align">
+        <div class="three columns">
+          <img class="u-max-full-width image-border" src="images/vvz.jpg" alt="Valentin Zaborov photo">
+        </div>
+        <div class="two-thirds column d-inline-block">
+          <p>
+            Professional telecommunication engineer with more than 20 years of
             experience as technical expert, solution architect as well as
             sales manager, keen interesting in software engineering and development.
+          </p>
+          <p>
             After 2 years of intensive self-studying, completion Ruby and Ruby on Rails
             on-line course and several projects I am looking for further  extension
             of professional and personal skills and new achievements.
+          </p>
+          <p>
             Communicative and friendly as well as accurate and punctual at work,
-            always keeping commitments.</p>
-          <h4>Experience</h4>
-          <h5>2020 – present time: PJSC “MGTS” / PJSC “MTS”</h5>
+            always keeping commitments.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="container mt-2">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="#contacts">Contacts</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#about">About</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#skills">Skills</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#experience">Experience</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#education">Education</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#projects">Projects</a></li>
+        </ul>
+      </nav>
+    </section>
+    <section class="container mt-2" id="skills">
+      <div class="row">
+        <div class="twelve columns mt-2">
+          <h3>Skills</h3>
+        </div>
+        <div class="row">
+          <div class="two columns">
+            <p class="mb-2"><strong>Ruby</strong></p>
+          </div>
+          <div class="ten columns tags-wrapper mb-2">
+            <p class="tag">Ruby</p>
+            <p class="tag">OOP</p>
+            <p class="tag">Code style</p>
+            <p class="tag">DRY</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="two columns">
+            <p class="mb-2"><strong>Ruby on Rails</strong></p>
+          </div>
+          <div class="ten columns tags-wrapper mb-2">
+            <p class="tag">MVC</p>
+            <p class="tag">CRUDL</p>
+            <p class="tag">REST</p>
+            <p class="tag">Application design</p>
+            <p class="tag">Bundler</p>
+            <p class="tag">Yarn</p>
+            <p class="tag">Active Storage</p>
+            <p class="tag">Mailjet</p>
+            <p class="tag">Letter Opener</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="two columns">
+            <p class="mb-2"><strong>Database</strong></p>
+          </div>
+          <div class="ten columns tags-wrapper mb-2">
+            <p class="tag">SQL</p>
+            <p class="tag">SQLite3</p>
+            <p class="tag">PostgreSQL</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="two columns">
+            <p class="mb-2"><strong>RoR testing</strong></p>
+          </div>
+          <div class="ten columns tags-wrapper mb-2">
+            <p class="tag">Rspec</p>
+            <p class="tag">Pry</p>
+            <p class="tag">Capybara</p>
+            <p class="tag">FactoryBot</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="two columns">
+            <p class="mb-2"><strong>Frontend</strong></p>
+          </div>
+          <div class="ten columns tags-wrapper mb-2">
+            <p class="tag">HTML</p>
+            <p class="tag">CSS</p>
+            <p class="tag">SCSS</p>
+            <p class="tag">Bootstrap</p>
+            <p class="tag">JavaScript</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="two columns">
+            <p class="mb-2"><strong>DevOps</strong></p>
+          </div>
+          <div class="ten columns tags-wrapper mb-2">
+            <p class="tag">Capistrano</p>
+            <p class="tag">Nginx</p>
+            <p class="tag">Passenger</p>
+            <p class="tag">Heroku</p>
+            <p class="tag">AWS</p>
+            <p class="tag">VPS</p>
+            <p class="tag">YandexCloud</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="two columns">
+            <p class="mb-2"><strong>Languages</strong></p>
+          </div>
+          <div class="ten columns tags-wrapper mb-2">
+            <p class="tag">Russian (native)</p>
+            <p class="tag">English (intermediate)</p>
+          </div>
+        </div>
+    </section>
+    <section class="container mt-2" id="experience">
+      <div class="row">
+        <div class="twelve columns"><h3>Experience</h3></div>
+      </div>
+      <div class="row">
+        <div class="two columns">
+          <p>2020 – present time</p>
+        </div>
+        <div class="ten columns">
+          <p class="mb-0"><a href="https://mgts.ru/" target="_blank"><strong>PJSC “MGTS” / PJSC “MTS”</strong></a></p>
+          <p class="mt-0">Telecommunication</p>
+          <p><strong>Leading engineer</strong> </p>
           <ul>
             <li>CS, PS core domains mobile network operation and support</li>
             <li>Telecom services delivery to customers</li>
           </ul>
-          <h5>2017 – 2020: OJSC "Beamtools"</h5>
-          <ul>
-            <li>Drive SEO and CMS optimization</li>
-            <li>Sales and content management</li>
-          </ul>
-          <h5>2005 – 2017: CJSC "Ericsson AB"</h5>
+        </div>
+        <div class="row">
+          <div class="two columns mt-2">
+            <p>2017 – 2020</p>
+          </div>
+          <div class="ten columns mt-2">
+            <p class="mb-0"><a href="https://beamtools.ru/" target="_blank"><strong>OJSC "Beamtools"</strong></a></p>
+            <p class="mt-0">Internet-shop</p>
+            <p><strong>Technical support and development engineer</strong> </p>
+            <ul>
+              <li>Drive SEO and CMS optimization</li>
+              <li>Sales and content management</li>
+            </ul>
+          </div>
+      </div>
+      <div class="row">
+        <div class="two columns mt-2">
+          <p>2005 – 2017</p>
+        </div>
+        <div class="ten columns mt-2">
+          <p class="mb-0"><a href="https://www.ericsson.com/" target="_blank"><strong>CJSC "Ericsson AB"</strong></a></p>
+          <p class="mt-0">Telecommunication</p>
+          <p><strong>Senior integration engineer</strong> </p>
           <ul>
             <li>Core (CN), Radio (RAN) and Transport (TN) networks services delivery planning and managing</li>
-            <li>Team leader and SPOC for RAN and TN design, integration, SW and HW upgrades</li>
             <li>CN, RAN and TN roll-out, integration and upgrade documentation development and acceptance</li>
             <li>Internal services organization regulation documents and portfolio development and implementation</li>
             <li>Managing and performing RAN and TN integration and modernization</li>
             <li>Customer solution responsible for RAN and TN</li>
           </ul>
-          <h4>Education</h4>
-          <h5>2021 – 2022: Goodprogrammer.ru</h5>
-          <p>Course title: Ruby and Ruby on Rails</p>
-          <p>Certificate: Ruby and Ruby on Rails developer</p>
-          <h5>1991 – 1996: Moscow Technical University of Communication and Informatics</h5>
-          <p>Department: Automatic Electricity Communication</p>
-          <p>Certificate of degree: Communication engineer</p>
-
-          <h4>Projects</h4>
-          <ul>
-            <li><a target="_blank" href="http://heliodor-bbq.ru/">BBQ</a></li>
-            <p>Application for events, share images, comments and subscriptions</p>
-            <li><a target="_blank" href="https://miniask.herokuapp.com/">Miniask</a></li>
-            <p>Users can apply questions, watch or put answers and search articles using hashtags</p>
-            <li><a target="_blank" href="https://be-lucky.herokuapp.com/">Be-lucky</a></li>
-            <p>The Who Whants to Be a Billonaire game</p>
-          </ul>
+        </div>
       </div>
-    </div>
+    </section>
+    <section class="container mt-2 mb-2" id="education">
+      <div class="row">
+        <div class="twelve columns"><h3>Education</h3></div>
+      </div>
+      <div class="row">
+        <div class="two columns">
+          <p>2021 – 2022</p>
+        </div>
+        <div class="ten columns">
+          <p class="mb-0"><strong>Ruby and Ruby on Rails</strong></p>
+          <p class="mt-0"><a target="_blank" href="https://goodprogrammer.ru/">Good programmer</a></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="two columns">
+          <p>1991 – 1996</p>
+        </div>
+        <div class="ten columns">
+          <p class="mb-0"><strong>Automatic Electricity Communication</strong></p>
+          <p class="mt-0"><a target="_blank" href="https://mtuci.ru/"></a>Moscow Technical University of Communication and Informatics</a></p>
+        </div>
+      </div>
+    </section>
+    <section class="container mt-2 mb-2" id="projects">
+      <div class="row">
+        <div class="twelve columns"><h3>Projects</h3></div>
+      </div>
+      <div class="row">
+        <div class="two columns">
+          <p class="mb-4"><a class="link" href="http://heliodor-bbq.ru/" target="_blank"><strong>BBQ</strong></a></p>
+          <p class="mb-0"><a class="link" href="https://github.com/Ignessio/bbq" target="_blank">Github</a></p>
+        </div>
+        <div class="ten columns">
+          <p class="mb-4">Application where users can assign events, using yandex map service and share images with pretty and simple gallery.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="two columns">
+          <p class="mb-4"><a class="link" href="http://heliodor-bbq.ru/" target="_blank"><strong>Miniask</strong></a></p>
+          <p class="mb-0"><a class="link" href="https://github.com/Ignessio/askme" target="_blank">Github</a></p>
+        </div>
+        <div class="ten columns">
+          <p class="mb-4">A simple application where users can apply questions, watch or put answers and search articles using hashtags.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="two columns">
+          <p class="mb-4"><a class="link" href="https://be-lucky.herokuapp.com/" target="_blank"><strong>Be-lucky</strong></a></p>
+          <p class="mb-0"><a class="link" href="https://github.com/Ignessio/billionaire" target="_blank">Github</a></p>
+        </div>
+        <div class="ten columns">
+          <p class="mb-4">The Who Whants to Be a Billonaire popular game.</p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
