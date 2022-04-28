@@ -629,21 +629,15 @@ there.
   list-style-type: none;
 }
 
-.tags-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.tag {
+mark {
   background-color: #FFFFFF;
-  padding: 7px;
-  margin: 0 10px 15px 0;
-  border: 1px solid #3ab9d5;
-  border-radius: 4px;
+  font-weight: 400;
+  margin: 0 4px;
+  color: #3ab9d5;
 }
 
-.tag:hover {
-  border-color: #3ad544;
+mark:hover {
+  color: #3ad544;
 }
 
 .image-border {
