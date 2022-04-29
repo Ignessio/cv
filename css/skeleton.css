@@ -609,6 +609,10 @@ there.
   margin-right: 10px;
 }
 
+.pt-0 {
+  padding-top: 0;
+}
+
 .pt-2 {
   padding-top: 10px;
 }
@@ -629,15 +633,45 @@ there.
   list-style-type: none;
 }
 
-mark {
-  background-color: #FFFFFF;
-  font-weight: 400;
-  margin: 0 4px;
-  color: #3ab9d5;
+.tags-wrapper {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-mark:hover {
-  color: #3ad544;
+.tag {
+  background-color: #FFFFFF;
+  padding: 2px 4px;
+  margin: 4px 6px;
+  border: 1px solid #3ab9d5;
+  border-radius: 4px;
+}
+
+.tag:hover {
+  font-weight: 400;
+  border-color: #3ad544;
+}
+
+.skill-group {
+  word-wrap: break-word;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.skill-list {
+  list-style-type: circle;
+  line-height: 1em;
+}
+
+.skill-item {
+  font-weight: 400;
+  padding: 2px 4px;
+  margin: 4px 0;
+  background-color: #FFFFFF;
+}
+
+.skill-item:hover {
+  border: 1px solid #3ad544;
+  border-radius: 4px;
 }
 
 .image-border {
